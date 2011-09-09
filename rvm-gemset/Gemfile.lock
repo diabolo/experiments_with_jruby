@@ -1,0 +1,14 @@
+GEM
+  remote: http://rubygems.org/
+  specs:
+    columnize (0.3.4)
+    ruby-debug (0.10.4)
+      columnize (>= 0.1)
+      ruby-debug-base (~> 0.10.4.0)
+    ruby-debug-base (0.10.4-java)
+
+PLATFORMS
+  java
+
+DEPENDENCIES
+  ruby-debug
