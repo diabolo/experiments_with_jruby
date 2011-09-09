@@ -36,3 +36,15 @@ platforms :jruby do
     gem 'therubyrhino'
   end
 end
+
+group :development, :test do
+  gem "rspec-rails"
+  gem "cucumber-rails"
+  platform :ruby_18 do
+    gem "ruby-debug"
+  end 
+
+  platform :ruby_19 do
+    gem "ruby-debug19", :require => 'ruby-debug'
+  end 
+end
