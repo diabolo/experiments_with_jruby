@@ -41,6 +41,8 @@ group :development, :test do
   gem "rspec-rails"
   gem "cucumber-rails"
   gem "database_cleaner"
+  gem "metrical"
+  gem "librarian"
   platform :ruby_18 do
     gem "ruby-debug"
   end 
